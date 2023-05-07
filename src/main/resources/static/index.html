@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Kunderegister</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+    <script src="login.js"></script>
+</head>
+<body>
+<h1>Kunder</h1>
+<table class="table">
+    <div id="kundene"></div>
+</table>
+<div id="feil" style="color: red"></div>
+<a class="btn btn-primary" href="/lagreKunde.html">Register ny kunde</a>
+<a class="btn btn-primary" href="/login.html">Logg inn</a>
+<a class="btn btn-primary" onclick="logout()">Logg ut</a>
+<a class="btn btn-danger" onclick="slettKundene()" >Slett alle kunder</a>
+</body>
+</html>
